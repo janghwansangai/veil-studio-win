@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist.zip
+
+# 대용량 바이너리는 저장소에 넣지 않습니다 (GitHub 파일당 100MB 제한).
+# 받는 방법은 resources/README.md 와 각 폴더의 PROVENANCE.txt 를 보세요.
+resources/speech/bin/
+resources/speech/models/
+resources/face/*.onnx
+resources/separation/*.onnx
+resources/vcruntime/

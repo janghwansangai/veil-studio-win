@@ -1,0 +1,8 @@
+UVR-MDX-NET-Voc_FT.onnx
+  Source : https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Voc_FT.onnx
+  Project: Ultimate Vocal Remover (UVR) — Anjok07 & aufr33, MIT License
+  Size   : 66,762,490 bytes
+  SHA-256: 534b2070fcc7df514b13ef660dc8cbb328679c2374d04354a5c42bb14ecce111
+  UVR model hash (MD5 of the last 10 MB): 77d07b2667ddf05b9e3175941b4454a0
+  Parameters (UVR model_data): n_fft 7680, hop 1024, dim_f 3072, dim_t 256 (2^8), compensate 1.021, primary stem Vocals
+  Use in Veil Studio: vocal isolation before speech recognition only; never applied to exported audio.

@@ -1,0 +1,22 @@
+whisper.cpp b5130 (Windows x64, CUDA 12.4 build; CPU backends included)
+https://github.com/ggml-org/whisper.cpp/releases/download/b5130/whisper-cublas-12.4.0-bin-x64.zip
+Archive SHA256: af520ddd034d985b55dfeea3e465ed93653ba2aee1a55e865033edc548c272a7
+Included from the archive: whisper-cli.exe, whisper.dll, ggml*.dll, ggml-cuda.dll, cudart64_12.dll, cublas64_12.dll, cublasLt64_12.dll
+Modification: whisper-cli.exe's embedded manifest was rewritten (same size) to request the UTF-8 active code page
+(scripts/utf8-manifest.cjs) so non-ASCII paths and prompts are passed correctly.
+When no NVIDIA driver is present, ggml falls back to its CPU backends automatically.
+msvcp140*.dll / vcruntime140*.dll: Microsoft Visual C++ 2015-2022 redistributable files (app-local deployment).
+
+Models
+- ggml-large-v3-turbo-q5_0.bin  https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo-q5_0.bin
+  SHA256: 394221709cd5ad1f40c46e6031ca61bce88931e6e088c188294c6d5a55ffa7e2
+- ggml-base.bin  https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin
+  SHA256: 60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe
+- ggml-silero-v5.1.2.bin (VAD)  https://huggingface.co/ggml-org/whisper-vad/resolve/main/ggml-silero-v5.1.2.bin
+  SHA256: 29940d98d42b91fbd05ce489f3ecf7c72f0a42f027e4875919a28fb4c04ea2cf
+Whisper model architecture and weights: https://github.com/openai/whisper (MIT license). Silero VAD: MIT license.
+
+Face models (resources/face)
+- face_detection_yunet_2023mar.onnx (MIT)  SHA256: 8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4
+- face_recognition_sface_2021dec.onnx (Apache-2.0)  SHA256: 0ba9fbfa01b5270c96627c4ef784da859931e02f04419c829e83484087c34e79
+  https://github.com/opencv/opencv_zoo
