@@ -8,7 +8,8 @@ macOS용 Veil Studio 0.7(SwiftUI·AVFoundation·Vision·Core Image·Apple Speech
 
 | 방법 | 위치 |
 | --- | --- |
-| 설치 파일 | `dist/VeilStudio-Setup-0.7.0.exe` — 설치 위치 선택, 시작 메뉴/바탕화면 바로가기, `.veilproject` 연결 |
+| 설치 파일 (권장) | [릴리스 v0.7.0](https://github.com/janghwansangai/veil-studio-win/releases/tag/v0.7.0)에서 `VeilStudio-Setup-0.7.0.exe` 내려받기 — 설치 위치 선택, 시작 메뉴/바탕화면 바로가기, `.veilproject` 연결 |
+| 직접 빌드한 설치 파일 | `npm run dist` 실행 후 `dist/VeilStudio-Setup-0.7.0.exe` |
 | 설치 없이 실행 | `dist/win-unpacked/VeilStudio.exe` (폴더째 복사해도 동작) |
 | 개발 모드 | `npm install` 후 `npm start` |
 
